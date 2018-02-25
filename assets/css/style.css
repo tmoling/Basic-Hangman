@@ -1,0 +1,15 @@
+h1 {
+  font-family: 'Russo One', sans-serif;
+  font: bold;
+  text-align: center;
+}
+
+p {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+}
+
+.jumboimage,
+body {
+  background-color: rgb(163, 194, 230)
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman Game</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> 
+
+</head>
+
+<body>
+    <div class="jumbotron jumboimage">
+        <h1 class="display-3">Hangman Game</h1>
+        <p class="lead">Can you guess the correct weather-related word?</p>
+        </p>
+        <hr>
+      </div>
+     
+
+  <div class="container">
+    <!-- Jumbotron holds the title section -->
+    
+
+      <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Your Word Is...
+        </h3>
+      </div>
+
+      <div class="panel-body">
+        <h3 id="wordToGuess">_ _ _ _ _ _ _ _ _ </h3>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        Incorrect Guesses
+        <label id="incorrectGuesses">45678</label>
+            </div>
+          </div>
+
+
+          <div class="panel panel-default ">
+            <div class="panel-body">
+              Guesses Left <label id="numberOfGuesses">4465</label>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        Wins So Far
+        <label id="winsSoFar">88776</label>
+              </div>
+            </div>
+          
+            <div class="panel panel-default ">
+              <div class="panel-body ">
+                Losses So Far
+                <label id="lossesSoFar">8656</label>
+      </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
